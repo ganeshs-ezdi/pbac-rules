@@ -19,10 +19,10 @@ public class MySqlPermissionService implements PermissionService {
     public List<String> getPermissions(SecurityContext securityContext) {
         List<UserDocumentPermission> documentPermissions = permissionDao.getDocumentPermissions(
                 Integer.parseInt(securityContext.getUserId()),
-                securityContext.getContextParams().get("pc"),
-                securityContext.getContextParams().get("pf"),
-                "Unknown",
-                "Unknown"
+                securityContext.getContextParams().get("patient_class"),
+                securityContext.getContextParams().get("patient_type"),
+                securityContext.getContextParams().get("service_line"),
+                securityContext.getContextParams().get("point_of_care")
         );
         ArrayList<String> permissions = new ArrayList<>();
 

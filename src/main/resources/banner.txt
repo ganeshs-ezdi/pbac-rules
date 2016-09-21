@@ -1,0 +1,15 @@
+    ${AnsiColor.BLUE}                  ${AnsiColor.GREEN}________   .___ ${AnsiColor.DEFAULT}
+    ${AnsiColor.BLUE}    ____  ________${AnsiColor.GREEN}\______ \  |   |${AnsiColor.DEFAULT}
+    ${AnsiColor.BLUE}  _/ __ \ \___   /${AnsiColor.GREEN} |    |  \ |   |${AnsiColor.DEFAULT}
+    ${AnsiColor.BLUE}  \  ___/  /    / ${AnsiColor.GREEN} |    `   \|   |${AnsiColor.DEFAULT}
+    ${AnsiColor.BLUE}   \___  >/_____ \${AnsiColor.GREEN}/_______  /|___|${AnsiColor.DEFAULT}
+    ${AnsiColor.BLUE}       \/       \/${AnsiColor.GREEN}        \/      ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}  _________                  ___.                                    ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}  \_   ___ \   ____  _______ \_ |__    ____  _______  __ __   ______ ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}  /    \  \/ _/ __ \ \_  __ \ | __ \ _/ __ \ \_  __ \|  |  \ /  ___/ ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}  \     \____\  ___/  |  | \/ | \_\ \\  ___/  |  | \/|  |  / \___ \  ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}   \______  / \___  > |__|    |___  / \___  > |__|   |____/ /____  > ${AnsiColor.DEFAULT}
+    ${AnsiColor.WHITE}          \/      \/              \/      \/                     \/  ${AnsiColor.DEFAULT}
+
+ ${AnsiColor.BLUE}Application - ${application.title} - ${application.formatted-version} ${AnsiColor.DEFAULT}
+ ${AnsiColor.GREEN}Spring Boot - ${spring-boot.version} ${AnsiColor.DEFAULT}
